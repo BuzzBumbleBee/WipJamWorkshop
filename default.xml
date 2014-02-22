@@ -2,7 +2,7 @@
 <manifest>
 
   <remote  name="github"
-           fetch=".."
+           fetch="git://github.com/"
            review="review.cyanogenmod.org" />
 
   <remote  name="private"
