@@ -5,22 +5,23 @@ WIPJam Setup
 
 2) Install git (linux)
 
-	- git config --global user.name "Your Name Here"
-	- git config --global user.email "your_email@example.com"
-	- git config --global review.review.cyanogenmod.org.username "gerrit username"
+	git config --global user.name "Your Name Here"
+	git config --global user.email "your_email@example.com"
+	git config --global review.review.cyanogenmod.org.username "gerrit username"
 
 3) Add your public RSA key to review.cyanogenmod.org/
 
-	- can be found by "cat ~/.ssh/id_rsa.pub"
+	(can be found by)
+	cat ~/.ssh/id_rsa.pub
 
 4) Download the source code
 
-	- "mkdir ~/WIPJamCM11"
-	- "cd ~/WIPJamCM11"
-	- "curl http://commondatastorage.googleapis.com/git-repo-downloads/repo > ~/bin/repo"
-	- "chmod a+x ~/bin/repo"
-        - "repo init -u git@github.com:BuzzBumbleBee/WipJamWorkshop.git -b cm-11.0"
-	- "repo sync"
+	mkdir ~/WIPJamCM11
+	cd ~/WIPJamCM11
+	curl http://commondatastorage.googleapis.com/git-repo-downloads/repo > ~/bin/repo
+	chmod a+x ~/bin/repo
+        repo init -u git@github.com:BuzzBumbleBee/WipJamWorkshop.git -b cm-11.0
+	repo sync
 
 5) Thats it your ready to make your canages !
 
