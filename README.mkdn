@@ -20,7 +20,7 @@ WIPJam Setup
 	cd ~/WIPJamCM11
 	curl http://commondatastorage.googleapis.com/git-repo-downloads/repo > ~/bin/repo
 	chmod a+x ~/bin/repo
-        repo init -u git@github.com:BuzzBumbleBee/WipJamWorkshop.git -b cm-11.0
+	repo init -u git@github.com:BuzzBumbleBee/WipJamWorkshop.git -b cm-11.0
 	repo sync
 
 5) Thats it your ready to make your canages !
