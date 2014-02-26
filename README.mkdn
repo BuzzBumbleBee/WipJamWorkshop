@@ -13,7 +13,8 @@ WIPJam Setup
 
 	(can be found by)
 	cat ~/.ssh/id_rsa.pub
-
+	ssh-add
+	
 4) Download the source code
 
 	mkdir ~/WIPJamCM11
