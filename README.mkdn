@@ -25,3 +25,9 @@ WIPJam Setup
 
 5) Thats it your ready to make your canages !
 
+Optional
+==========
+Recovery building information:
+
+	https://github.com/utkanos/bootable_recovery_howto
+
